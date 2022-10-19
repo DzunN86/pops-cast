@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+#scroll-podcast::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#scroll-podcast::-webkit-scrollbar-track {
+  background: #62646F; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+#scroll-podcast::-webkit-scrollbar-thumb {
+  background: #F7C904;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#scroll-podcast::-webkit-scrollbar-thumb:hover {
+  background: #e7bd03; 
+}
